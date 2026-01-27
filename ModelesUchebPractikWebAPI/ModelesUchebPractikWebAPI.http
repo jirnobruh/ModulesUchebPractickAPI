@@ -1,0 +1,6 @@
+@ModelesUchebPractikWebAPI_HostAddress = http://localhost:5254
+
+GET {{ModelesUchebPractikWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
