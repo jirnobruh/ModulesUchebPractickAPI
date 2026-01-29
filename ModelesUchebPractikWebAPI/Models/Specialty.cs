@@ -1,15 +1,15 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema; 
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelesUchebPractikWebAPI.Models;
 
-[Table("weekday")]
-public class Weekday
+[Table("specialties")]
+public class Specialty
 {
     [Key]
-    [Column("weekday_id")]
-    public int WeekdayId { get; set; }
+    [Column("id")]
+    public int Id { get; set; }
     [Column("name")]
     [Required]
     public string Name { get; set; } = null!;
-} 
+}
