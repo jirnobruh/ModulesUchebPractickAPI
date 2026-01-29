@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModelesUchebPractikWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1263214efb71181892277d71a29dad7d51b72052")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27c7a90d87bbd5efc4d6bad2ae674752a37f007c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModelesUchebPractikWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModelesUchebPractikWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
