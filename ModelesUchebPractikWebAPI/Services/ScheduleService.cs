@@ -12,6 +12,13 @@ public class ScheduleService : IScheduleService
     {
         _db = db;
     }
+    public async Task<List<string>> GetAllGroups()
+    {
+        return await _db.StudentGroups
+            .OrderBy(g => g.GroupName)
+            .Select(g => g.GroupName)
+            .ToListAsync();
+    }
     public async Task<List<ScheduleByDateDto>> GetScheduleForGroup(string groupName, DateTime startDate, DateTime endDate)
     {
         ValidateDates(startDate, endDate);
